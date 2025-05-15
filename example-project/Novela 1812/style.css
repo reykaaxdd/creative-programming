@@ -1,0 +1,68 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    font-family: 'Arial', sans-serif;
+    color: white;
+  }
+  
+  #game {
+    min-height: 90vh;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end; /* Размещаем содержимое внизу */
+    padding: 20px;
+    box-sizing: border-box;
+  }
+  
+  #text {
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 20px;
+    border-radius: 10px;
+    color: white;
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+  
+  #choices {
+    text-align: center;
+  }
+  
+  #choices button {
+    margin: 10px;
+    padding: 10px 20px;
+    background-color: #444;
+    border: none;
+    color: white;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  #choices button:hover {
+    background-color: #666;
+  }
+
+  .Menu{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    flex-flow: inherit;
+    width: auto;
+    height: auto;
+    padding: 20px;
+    margin: 16px;
+    text-align: center;
+    font-family: 'Press Start 2P', 'Courier New', monospace;
+    background-color: #0000006c;
+    color: #00ff15;
+    border: #00ff15 2px solid;
+    border-radius: 8px;
+    position: absolute;
+  }
+  .Menu:hover{
+    background-color: #000000c4;
+    transform: scale(1.05);
+  }
